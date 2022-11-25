@@ -15,9 +15,9 @@ def vista2():
 def vista3():
     return render_template('vista3.html')
 
-@app.route('/vista4')
-def vista4():
-  return render_template('vista4.html')
+@app.route('/PinturasAbstractas')
+def PinturasAbstractas():
+  return render_template('PinturasAbstractas.html')
 
 if __name__ == "__main__":
     app.run(debug=True, port=3800)
