@@ -7,12 +7,12 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/vista2')
-def MuseoFrida():
-    return render_template('vista2.html')
+@app.route('/ConsolaRetro')
+def ConsolaRetro():
+    return render_template('ConsolaRetro.html')
 
 @app.route('/MuseoFrida')
-def vista3():
+def MuseoFrida():
     return render_template('MuseoFrida.html')
 
 @app.route('/PinturasAbstractas')
