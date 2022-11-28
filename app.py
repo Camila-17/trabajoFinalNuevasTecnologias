@@ -8,12 +8,12 @@ def index():
     return render_template('index.html')
 
 @app.route('/vista2')
-def vista2():
+def MuseoFrida():
     return render_template('vista2.html')
 
-@app.route('/vista3')
+@app.route('/MuseoFrida')
 def vista3():
-    return render_template('vista3.html')
+    return render_template('MuseoFrida.html')
 
 @app.route('/PinturasAbstractas')
 def PinturasAbstractas():
